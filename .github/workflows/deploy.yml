@@ -32,7 +32,10 @@ jobs:
 
   deploy:
     name: Deploy
-    if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/main') || github.event_name == 'workflow_dispatch' }}
+    # Fork deploy is manual: the CLOUDFLARE_API_TOKEN secret is not configured
+    # here, so auto-deploy on push would fail. Run `npx wrangler deploy` locally,
+    # or configure the secret and trigger this workflow manually.
+    if: ${{ github.event_name == 'workflow_dispatch' }}
     needs: verify
     runs-on: ubuntu-latest
     timeout-minutes: 10
