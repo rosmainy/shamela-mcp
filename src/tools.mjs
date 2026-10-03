@@ -215,16 +215,16 @@ export function createServer(client = sharedClient) {
     version: SERVER_VERSION,
     description:
       "MCP server exposing shamela.ws \u2014 a large Arabic digital library of Islamic books \u2014 as callable tools: books, hadith, tafsir, authors, and narrator biographies.",
-    websiteUrl: "https://shamela-mcp.themuhammadpersonal.workers.dev/",
+    websiteUrl: "https://shamela-mcp.falaktech2026.workers.dev/",
     // SEP-973: sized icons a client can render in its server list / connector UI.
     // PNG is included because the spec requires clients to support at least
     // PNG/JPEG; the SVG is offered too for clients that render it (sharper at
     // any size). Bytes are served from /icon.svg /icon-192.png /icon-64.png
     // (see index.mjs) rather than inlined here, keeping `initialize` small.
     icons: [
-      { src: "https://shamela-mcp.themuhammadpersonal.workers.dev/icon.svg", mimeType: "image/svg+xml", sizes: ["any"] },
-      { src: "https://shamela-mcp.themuhammadpersonal.workers.dev/icon-192.png", mimeType: "image/png", sizes: ["192x192"] },
-      { src: "https://shamela-mcp.themuhammadpersonal.workers.dev/icon-64.png", mimeType: "image/png", sizes: ["64x64"] },
+      { src: "https://shamela-mcp.falaktech2026.workers.dev/icon.svg", mimeType: "image/svg+xml", sizes: ["any"] },
+      { src: "https://shamela-mcp.falaktech2026.workers.dev/icon-192.png", mimeType: "image/png", sizes: ["192x192"] },
+      { src: "https://shamela-mcp.falaktech2026.workers.dev/icon-64.png", mimeType: "image/png", sizes: ["64x64"] },
     ],
   });
   // `registerTool` is the non-deprecated API in SDK ≥1.30 (`tool()` is @deprecated).

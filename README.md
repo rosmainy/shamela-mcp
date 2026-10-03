@@ -8,7 +8,7 @@
 
 <br/>
 
-[![Live](https://img.shields.io/badge/Live-Endpoint-00C853?style=for-the-badge&logo=cloudflare&logoColor=white)](https://shamela-mcp.themuhammadpersonal.workers.dev/mcp)
+[![Live](https://img.shields.io/badge/Live-Endpoint-00C853?style=for-the-badge&logo=cloudflare&logoColor=white)](https://shamela-mcp.falaktech2026.workers.dev/mcp)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 [![Node](https://img.shields.io/badge/Node.js-≥22-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
 [![Cloudflare](https://img.shields.io/badge/Deployed_on-Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://workers.cloudflare.com)
@@ -18,7 +18,7 @@
 **Live Endpoint**
 
 ```
-https://shamela-mcp.themuhammadpersonal.workers.dev/mcp
+https://shamela-mcp.falaktech2026.workers.dev/mcp
 ```
 
 </div>
@@ -104,7 +104,7 @@ https://shamela-mcp.themuhammadpersonal.workers.dev/mcp
 {
   "mcpServers": {
     "shamela": {
-      "url": "https://shamela-mcp.themuhammadpersonal.workers.dev/mcp"
+      "url": "https://shamela-mcp.falaktech2026.workers.dev/mcp"
     }
   }
 }
@@ -116,7 +116,7 @@ https://shamela-mcp.themuhammadpersonal.workers.dev/mcp
 {
   "mcpServers": {
     "shamela": {
-      "url": "https://shamela-mcp.themuhammadpersonal.workers.dev/mcp",
+      "url": "https://shamela-mcp.falaktech2026.workers.dev/mcp",
       "headers": {
         "Authorization": "Bearer YOUR_API_KEY"
       }
